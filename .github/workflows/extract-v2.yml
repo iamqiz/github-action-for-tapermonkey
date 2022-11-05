@@ -24,19 +24,16 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
       - run: pwd
-      - run: tree -a
+      - run: tree -a -I .git
       - run: echo "The input path is:[${{ inputs.path }}]"
       - run: pip install leveldb
-      - run: rm -rf result
-      - run: mkdir result
-      - run: python py2.py "${{ inputs.path }}"
+      - run: python py-2.py "${{ inputs.path }}"
       - run: tree -a -I .git
-      # move files to result dir and ignore error
-      - run: mv extract_tampermonkey_script_output result 2>/dev/null ||true
-      - run: mv github-action-run.log result 2>/dev/null ||true
       - uses: actions/upload-artifact@v3
         with:
           name: artifact-tampermonkey-extract-output
-          path: result
+          path: |
+            extract_tampermonkey_script_output
+            github-action-run.log
       - run: echo finished
 
