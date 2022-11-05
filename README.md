@@ -18,6 +18,7 @@ database path :
 the database dir include Manifest-* CURRENT  *.ldb files and so on.  
 a database example:  
 ![img.png](doc/database-example.png)
+
 details about google leveldb:  
 [https://github.com/google/leveldb/blob/main/doc/impl.md](https://github.com/google/leveldb/blob/main/doc/impl.md)
 
