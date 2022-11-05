@@ -15,7 +15,11 @@ database path :
 #Windows chrome: "C:\Users\<USERNAME>\AppData\Local\Google\Chrome\User Data\Default\Local Extension Settings\<EXTENSION_ID>"
 #windows edge:   "C:\Users\<USERNAME>\AppData\Local\Microsoft\Edge\User Data\Default\Local Extension Settings\<EXTENSION_ID>
 ```
-
+the database dir include Manifest-* CURRENT  *.ldb files and so on.  
+a database example:  
+![img.png](doc/database-example.png)
+details about google leveldb:  
+[https://github.com/google/leveldb/blob/main/doc/impl.md](https://github.com/google/leveldb/blob/main/doc/impl.md)
 
 ### 2 fork the repository
 
