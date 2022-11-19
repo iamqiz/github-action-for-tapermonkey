@@ -15,6 +15,8 @@ database path :
 #Windows chrome: "C:\Users\<USERNAME>\AppData\Local\Google\Chrome\User Data\Default\Local Extension Settings\<EXTENSION_ID>"
 #windows edge:   "C:\Users\<USERNAME>\AppData\Local\Microsoft\Edge\User Data\Default\Local Extension Settings\<EXTENSION_ID>
 ```
+paste chrome://version/ in chrome address bar and enter, you will get your chrome profile data path
+
 the database dir include Manifest-*      CURRENT     *.ldb files and so on.  
 a database example:  
 ![img.png](doc/database-example.png)
