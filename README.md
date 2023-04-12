@@ -1,4 +1,5 @@
 # restore your tapermonkey scripts by github action
+[中文文档](README-CN.md)
 
 this repo can restore tapermonkey scripts from its database(chrome leveldb).  
 just fork this repo & upload its database to the repo ,and run github action,
