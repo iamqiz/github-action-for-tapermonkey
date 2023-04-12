@@ -19,7 +19,7 @@
 这里 EXTENSION_ID表示插件id, 通过"右键插件图标>管理拓展程序>ID"来获取
 Local Extension Settings 位于浏览器个人资料目录(一般叫Default)下, chrome://version/ 页面下的"个人资料路径"即是个人资料目录路径
 
-数据库目录下包括 Manifest-*      CURRENT     \*.ldb files 等文件  
+数据库目录下包括 Manifest-*      CURRENT     \*.ldb 等文件  
 例子:  
 ![img.png](doc/database-example.png)
 
