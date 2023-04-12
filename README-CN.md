@@ -1,4 +1,5 @@
 # 通过github action恢复油猴脚本
+[English Doc](README.md)
 
 本仓库可以从插件数据库(chrome leveldb格式)恢复油猴脚本,不需要在本地搭建环境,  
 只需Fork本仓库,然后把油猴数据库压缩之后上传到github仓库,然后执行 github 动作,即可恢复脚本, 恢复之后下载下来即可
